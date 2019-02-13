@@ -2,7 +2,7 @@
 require './lib/included_class_method'
 # 
 class Main
-	include IncludedClassMethod
+  include IncludedClassMethod
 end
 
 Main.new.test

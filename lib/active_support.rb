@@ -24,11 +24,6 @@ module ActiveSupport
 				p "Error: #{e.message}"
 			end
 		end
-
-		# appending the methods of the SportCateogry class..
-		def append_features(base)
-			super
-    end
 	end
 	
 end
